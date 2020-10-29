@@ -51,8 +51,6 @@ if len(username) >= 3:
 
                         if answer:
                             print("You scored a point")
-                            c.execute('INSERT INTO points VALUES(1)')
-                            conn.commit()
                         else:
                             print("You did not get a point.")
                             
@@ -115,8 +113,7 @@ if len(username) >= 3:
 
                         if answer:
                             print("You scored a point")
-                            c.execute('INSERT INTO points VALUES(1)')
-                            conn.commit()
+                            
                         else:
                             print("You did not get a point.")
                             
