@@ -48,8 +48,7 @@ def options():
 
 
             try_again_func()
-        else:
-            print("You don't get a point")
+        
     elif option == "b" or option == "B" or option == "See the rules" or option == "see the rules":  
         print("These are the rules.")
         print("""
